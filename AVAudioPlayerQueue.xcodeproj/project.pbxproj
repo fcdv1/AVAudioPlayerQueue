@@ -28,6 +28,7 @@
 		0327443220D215370096D22E /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0327442C20D215370096D22E /* 3.mp3 */; };
 		0327443320D215370096D22E /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0327442D20D215370096D22E /* 6.mp3 */; };
 		0327443420D215370096D22E /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0327442E20D215370096D22E /* 1.mp3 */; };
+		0327443620D21E050096D22E /* useDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0327443520D21E050096D22E /* useDemo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		0327442C20D215370096D22E /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
 		0327442D20D215370096D22E /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
 		0327442E20D215370096D22E /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		0327443520D21E050096D22E /* useDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = useDemo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				0327441D20D215260096D22E /* six.m4a */,
 				0327441B20D215260096D22E /* three.m4a */,
 				0327442020D215260096D22E /* two.m4a */,
+				0327443520D21E050096D22E /* useDemo.png */,
 			);
 			path = testFiles;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				0327443320D215370096D22E /* 6.mp3 in Resources */,
 				0327442320D215260096D22E /* four.m4a in Resources */,
 				0327442520D215260096D22E /* one.m4a in Resources */,
+				0327443620D21E050096D22E /* useDemo.png in Resources */,
 				0327443020D215370096D22E /* 2.mp3 in Resources */,
 				0327442820D215260096D22E /* five.m4a in Resources */,
 				032743FA20D209970096D22E /* Main.storyboard in Resources */,
