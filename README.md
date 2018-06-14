@@ -5,4 +5,4 @@ you can get callback
 
 How to use?
 
-![image](https://github.com/fcdv1/AVAudioPlayerQueue/blob/master/AVAudioPlayerQueue/AVAudioPlayerQueue/testFiles/useDemo.png)
+![image](https://github.com/fcdv1/AVAudioPlayerQueue/blob/master/AVAudioPlayerQueue/testFiles/useDemo.png)
