@@ -14,6 +14,20 @@
 		032743FF20D209970096D22E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032743FD20D209970096D22E /* LaunchScreen.storyboard */; };
 		0327440220D209970096D22E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0327440120D209970096D22E /* main.m */; };
 		0327440C20D209980096D22E /* AVAudioPlayerQueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0327440B20D209980096D22E /* AVAudioPlayerQueueTests.m */; };
+		0327441920D209C40096D22E /* AVAudioPlayerQueueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0327441820D209C40096D22E /* AVAudioPlayerQueueManager.m */; };
+		0327442220D215260096D22E /* three.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0327441B20D215260096D22E /* three.m4a */; };
+		0327442320D215260096D22E /* four.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0327441C20D215260096D22E /* four.m4a */; };
+		0327442420D215260096D22E /* six.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0327441D20D215260096D22E /* six.m4a */; };
+		0327442520D215260096D22E /* one.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0327441E20D215260096D22E /* one.m4a */; };
+		0327442620D215260096D22E /* seven.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0327441F20D215260096D22E /* seven.m4a */; };
+		0327442720D215260096D22E /* two.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0327442020D215260096D22E /* two.m4a */; };
+		0327442820D215260096D22E /* five.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0327442120D215260096D22E /* five.m4a */; };
+		0327442F20D215370096D22E /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0327442920D215360096D22E /* 4.mp3 */; };
+		0327443020D215370096D22E /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0327442A20D215360096D22E /* 2.mp3 */; };
+		0327443120D215370096D22E /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0327442B20D215360096D22E /* 5.mp3 */; };
+		0327443220D215370096D22E /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0327442C20D215370096D22E /* 3.mp3 */; };
+		0327443320D215370096D22E /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0327442D20D215370096D22E /* 6.mp3 */; };
+		0327443420D215370096D22E /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0327442E20D215370096D22E /* 1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +54,21 @@
 		0327440720D209980096D22E /* AVAudioPlayerQueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVAudioPlayerQueueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0327440B20D209980096D22E /* AVAudioPlayerQueueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVAudioPlayerQueueTests.m; sourceTree = "<group>"; };
 		0327440D20D209980096D22E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0327441720D209C40096D22E /* AVAudioPlayerQueueManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVAudioPlayerQueueManager.h; sourceTree = "<group>"; };
+		0327441820D209C40096D22E /* AVAudioPlayerQueueManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVAudioPlayerQueueManager.m; sourceTree = "<group>"; };
+		0327441B20D215260096D22E /* three.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = three.m4a; sourceTree = "<group>"; };
+		0327441C20D215260096D22E /* four.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = four.m4a; sourceTree = "<group>"; };
+		0327441D20D215260096D22E /* six.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = six.m4a; sourceTree = "<group>"; };
+		0327441E20D215260096D22E /* one.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = one.m4a; sourceTree = "<group>"; };
+		0327441F20D215260096D22E /* seven.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = seven.m4a; sourceTree = "<group>"; };
+		0327442020D215260096D22E /* two.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = two.m4a; sourceTree = "<group>"; };
+		0327442120D215260096D22E /* five.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = five.m4a; sourceTree = "<group>"; };
+		0327442920D215360096D22E /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		0327442A20D215360096D22E /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		0327442B20D215360096D22E /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5.mp3; sourceTree = "<group>"; };
+		0327442C20D215370096D22E /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		0327442D20D215370096D22E /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
+		0327442E20D215370096D22E /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +110,8 @@
 		032743F120D209970096D22E /* AVAudioPlayerQueue */ = {
 			isa = PBXGroup;
 			children = (
+				0327441A20D2151A0096D22E /* testFiles */,
+				0327441620D2099E0096D22E /* AVAudioPlayerQueue */,
 				032743F220D209970096D22E /* AppDelegate.h */,
 				032743F320D209970096D22E /* AppDelegate.m */,
 				032743F520D209970096D22E /* ViewController.h */,
@@ -101,6 +132,35 @@
 				0327440D20D209980096D22E /* Info.plist */,
 			);
 			path = AVAudioPlayerQueueTests;
+			sourceTree = "<group>";
+		};
+		0327441620D2099E0096D22E /* AVAudioPlayerQueue */ = {
+			isa = PBXGroup;
+			children = (
+				0327441720D209C40096D22E /* AVAudioPlayerQueueManager.h */,
+				0327441820D209C40096D22E /* AVAudioPlayerQueueManager.m */,
+			);
+			path = AVAudioPlayerQueue;
+			sourceTree = "<group>";
+		};
+		0327441A20D2151A0096D22E /* testFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0327442E20D215370096D22E /* 1.mp3 */,
+				0327442A20D215360096D22E /* 2.mp3 */,
+				0327442C20D215370096D22E /* 3.mp3 */,
+				0327442920D215360096D22E /* 4.mp3 */,
+				0327442B20D215360096D22E /* 5.mp3 */,
+				0327442D20D215370096D22E /* 6.mp3 */,
+				0327442120D215260096D22E /* five.m4a */,
+				0327441C20D215260096D22E /* four.m4a */,
+				0327441E20D215260096D22E /* one.m4a */,
+				0327441F20D215260096D22E /* seven.m4a */,
+				0327441D20D215260096D22E /* six.m4a */,
+				0327441B20D215260096D22E /* three.m4a */,
+				0327442020D215260096D22E /* two.m4a */,
+			);
+			path = testFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,8 +245,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0327442F20D215370096D22E /* 4.mp3 in Resources */,
+				0327443120D215370096D22E /* 5.mp3 in Resources */,
+				0327442720D215260096D22E /* two.m4a in Resources */,
 				032743FF20D209970096D22E /* LaunchScreen.storyboard in Resources */,
+				0327443420D215370096D22E /* 1.mp3 in Resources */,
+				0327442220D215260096D22E /* three.m4a in Resources */,
+				0327442620D215260096D22E /* seven.m4a in Resources */,
 				032743FC20D209970096D22E /* Assets.xcassets in Resources */,
+				0327442420D215260096D22E /* six.m4a in Resources */,
+				0327443220D215370096D22E /* 3.mp3 in Resources */,
+				0327443320D215370096D22E /* 6.mp3 in Resources */,
+				0327442320D215260096D22E /* four.m4a in Resources */,
+				0327442520D215260096D22E /* one.m4a in Resources */,
+				0327443020D215370096D22E /* 2.mp3 in Resources */,
+				0327442820D215260096D22E /* five.m4a in Resources */,
 				032743FA20D209970096D22E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0327441920D209C40096D22E /* AVAudioPlayerQueueManager.m in Sources */,
 				032743F720D209970096D22E /* ViewController.m in Sources */,
 				0327440220D209970096D22E /* main.m in Sources */,
 				032743F420D209970096D22E /* AppDelegate.m in Sources */,
