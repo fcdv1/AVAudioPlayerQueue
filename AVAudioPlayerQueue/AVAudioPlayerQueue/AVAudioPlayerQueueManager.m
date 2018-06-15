@@ -9,7 +9,7 @@
 #import "AVAudioPlayerQueueManager.h"
 @import AVFoundation;
 
-@interface AudioPlayerQueueItem:NSObject
+@interface AudioPlayerQueueItem:NSObject<AVAudioPlayerDelegate>
 @property (nonatomic, strong) NSArray <NSString *> *audioFiles;
 @property (nonatomic, strong) NSArray <NSData *> *audioDatas;
 @property (nonatomic, strong) NSString *taskID;
@@ -45,6 +45,9 @@
     self = [super init];
     if (self) {
         self.audioItems = [NSMutableArray new];
+        
+        
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(AVAudioSessionInterruptionNotification:) name:AVAudioSessionInterruptionNotification object:[AVAudioSession sharedInstance]];
     }
     return self;
 }
@@ -176,5 +179,18 @@
         [self playItemNextFile:self.nowPlayingItem];
     }
 }
+
+#pragma mark - Session interupt
+- (void)AVAudioSessionInterruptionNotification: (NSNotification *)notificaiton {
+    AVAudioSessionInterruptionType type = [notificaiton.userInfo[AVAudioSessionInterruptionTypeKey] intValue];
+    if (type == AVAudioSessionInterruptionTypeBegan) {
+        [self cancelAllTask];
+    }
+}
+
+-(void) dealloc{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
 
 @end
